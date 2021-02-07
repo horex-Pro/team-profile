@@ -1,0 +1,38 @@
+@media only screen and (max-width:1300px){
+    *{
+        overflow: auto;
+    }
+    .heading{
+        font-size: 40px;
+        width: 80%;
+    }
+
+    .inner-container{
+        width: 100%;
+        top: 32%;
+    }
+    .image-top{
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    *{
+        overflow: auto;
+    }
+    .container{
+        height: 100%;
+    }
+    .heading{
+        width: 90%;
+    }
+
+    .inner-container{
+        flex-wrap: wrap;
+        padding: 300px 0 200px 0;
+    }
+
+    .card{
+        margin: 0 30px 50px 30px;
+    }
+}
